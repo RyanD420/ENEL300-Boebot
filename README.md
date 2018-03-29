@@ -1,4 +1,4 @@
-# ENEL300 Boebot Last updated Mar 28, 2018
+# ENEL300 Boebot Last updated Mar 29, 2018
 
 This is the main code used for my ENEL 300 project (2nd year Electrical Engineering design class) in which the task is to navigate around a course using an Arduino Uno, two servo motors and 3 infrared sensors. 
 This couldn't have been done without the help of my team members Devon, Akhil, and Levin!
@@ -52,11 +52,11 @@ Image of the course can be found from the URL:
 https://imgur.com/a/BgmR7
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-Videos of the BoeBot:
+#### Videos of the BoeBot:
 ----------------------
 
 ---------------------------------
-
+Youtube links:
 
 https://youtu.be/o4FN1WEVlwQ
 
@@ -64,6 +64,7 @@ https://youtu.be/o4FN1WEVlwQ
 ----------------------------------
 https://youtu.be/o4FN1WEVlwQ
 
-
-Image and video soon!
 ------------------------------------------------------------------------------------------------------------------------------------------
+#### Images
+Imgur link:
+https://imgur.com/a/F2YKp

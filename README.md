@@ -44,7 +44,8 @@ Digital Inputs and resistors can be adjusted to whatever inputs you'd like, just
 Schematic for the Servo motors:
 https://imgur.com/a/UsnZz
 
-The 12 and 11 represent the pins we attached the motors to remember to change in your code on lines 24 and 25 of Boebot.ino!
+The 12 and 11 in the diagram above represent the pins we attached the motors to remember to change in your code on lines 24 and 25 of Boebot.ino!
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Image of the course can be found from the URL:

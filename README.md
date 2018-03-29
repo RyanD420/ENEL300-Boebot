@@ -8,7 +8,7 @@ Thanks to robtillaart.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-## Required Materials
+### Required Materials
  -  Arduino UNO
  -  6 Resistors (Values can be changed based on needs)
  -  Arduino UNO Proto Shield

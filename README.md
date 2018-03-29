@@ -31,13 +31,20 @@ Thanks to robtillaart.
 #### Note about resistances
 The three IR LED's required various resistances based on the use of each sensor. The higher the resistance the lower the current and therefor the lower the range, whereas the lower the resistance the higher the current and range. From our findings the resistors we found best suited our needs are 6.8k Ohms (Left), 22k Ohms (Middle), and 1.5k Ohms (Right). 
 
-#### Note about wiring LED's
--   The V1 step function voltage is representative of the digital IO pins
--   R1 and R2 can be changed to whatever you may need as stated above
+#### Note about wiring LED's:
+Diagram for Transistors and LED terminals:
+https://imgur.com/a/pPTCK
 
-Schematic Image:
-https://imgur.com/a/lTUT3
+Schematic for the LED's:
+https://imgur.com/a/ziqwp
 
+Digital Inputs and resistors can be adjusted to whatever inputs you'd like, just remember to change the pins on lines 16-20 in Boebot.ino
+
+#### Note about wiring Servo motors
+Schematic for the Servo motors:
+https://imgur.com/a/UsnZz
+
+The 12 and 11 represent the pins we attached the motors to remember to change in your code on lines 24 and 25 of Boebot.ino!
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Image of the course can be found from the URL:

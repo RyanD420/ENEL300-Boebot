@@ -21,8 +21,8 @@ void setup()
  
  tone(4, 3000, 1000); 
  delay(1000); 
- servoLeft.attach(12); 
- servoRight.attach(11); 
+ servoLeft.attach(12); //servo pins
+ servoRight.attach(11); // servo pins
  
  servoLeft.writeMicroseconds(1500);
  servoRight.writeMicroseconds(1500);
@@ -56,7 +56,7 @@ void parallel() // follows wall and does turn around wall
     irLeft = irDetect(10, 9, 38000);
     irRight = irDetect(3,2, 38000);
     irMiddle = irDetect(8, 7, 38000); //re initialize
-    if((irLeft !=0 && sw_millis.elapsed()>2000) || (irRight==0 && sw_total.elapsed()>9000)) // if the time it doesn't detect the wall is greater than 9 > as well as the right sensor detecting break from the parallel function
+    if((irLeft !=0 && sw_millis.elapsed()>2000) || (irRight==0 && sw_total.elapsed()>9000)) // if the time it doesn't detect the wall is greater than 9 and if the right sensor detecting (first cup) break from the parallel function
     {
       break;
     }
@@ -64,7 +64,7 @@ void parallel() // follows wall and does turn around wall
     {
       sw_millis.reset(); // reset timer if it does detect so it knows it isn't past the wall yet
     }
-    if(irLeft!=0 && sw_millis.elapsed()<2000) // if time that it doesn't detect the wall < 2 turn left slightly to be more parallel to wall
+    if(irLeft!=0 && sw_millis.elapsed()<2000) // if time that it doesn't detect the wall less than 2 turn left slightly to be more parallel to wall
     {
       sw_millis.start();
       turnLeft(250);

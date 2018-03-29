@@ -9,14 +9,14 @@ Thanks to robtillaart.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Required Materials
-#### Arduino UNO
-#### 6 Resistors (Values can be changed based on needs)
-#### Arduino UNO Proto Shield
-#### Wires
-#### Computer with Arduino IDE
-#### 2 Servo Motors
-#### Battery holder and batteries
-#### Chassis or Frame
+####  Arduino UNO
+####  6 Resistors (Values can be changed based on needs)
+####  Arduino UNO Proto Shield
+####  Wires
+####  Computer with Arduino IDE
+####  2 Servo Motors
+####  Battery holder and batteries
+####  Chassis or Frame
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### Boebot Hardware and Construction

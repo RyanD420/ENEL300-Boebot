@@ -32,6 +32,12 @@ Thanks to robtillaart.
 The three IR LED's required resistances from left, middle, and right respectively of: 6.8k Ohms, 22k Ohms, and 1.5k Ohms. The main purpose of these resistors is to limit the range of each sensor and from our findings and code this was the best combination.
 
 #### Note about wiring LED's
+-The V1 step function voltage is representative of the digital IO pins
+-R1 and R2 can be changed to whatever you may need as stated above
+
+Schematic Image:
+https://imgur.com/a/lTUT3
+
 
 
 Image of the course can be found from the URL:

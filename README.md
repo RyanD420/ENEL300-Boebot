@@ -3,7 +3,7 @@
 This is the main code used for my ENEL 300 project (2nd year Electrical Engineering design class) in which the task is to navigate around a course using an Arduino Uno, two servo motors and 3 infrared sensors. 
 This couldn't have been done without the help of my team members Devon, Akhil, and Levin!
 
-The code used requires the 'StopWatch' library that can be found here: http://playground.arduino.cc/Code/StopWatchClass
+The code requires the 'StopWatch' library that can be found here: http://playground.arduino.cc/Code/StopWatchClass
 Thanks to robtillaart.
 
 ------------------------------------------------------------------------------------------------------------------------------------------

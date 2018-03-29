@@ -1,4 +1,4 @@
-# ENEL300-Boebot
+# ENEL300 Boebot Last updated Mar 28, 2018
 
 This is the main code used for my ENEL 300 project (2nd year Electrical Engineering design class) in which the task is to navigate around a course using an Arduino Uno, two servo motors and 3 infrared sensors. 
 This couldn't have been done without the help of my team members Devon, Akhil, and Levin!
@@ -31,11 +31,11 @@ Thanks to robtillaart.
 #### Note about resistances
 The three IR LED's required various resistances based on the use of each sensor. The higher the resistance the lower the current and therefor the lower the range, whereas the lower the resistance the higher the current and range. From our findings the resistors we found best suited our needs are 6.8k Ohms (Left), 22k Ohms (Middle), and 1.5k Ohms (Right). 
 
-#### Note about wiring LED's:
+#### Note about wiring LED's
 Diagram for Transistors and LED terminals:
 https://imgur.com/a/pPTCK
 
-Schematic for the LED's:
+Schematic for the LED's
 https://imgur.com/a/ziqwp
 
 Digital Inputs and resistors can be adjusted to whatever inputs you'd like, just remember to change the pins on lines 16-20 in Boebot.ino
@@ -44,7 +44,7 @@ Digital Inputs and resistors can be adjusted to whatever inputs you'd like, just
 Schematic for the Servo motors:
 https://imgur.com/a/UsnZz
 
-The 12 and 11 in the diagram above represent the pins we attached the motors to remember to change in your code on lines 24 and 25 of Boebot.ino!
+The 12 and 11 in the diagram above represent the pins we attached the motors to. Remember to change in your code on lines 24 and 25 of Boebot.ino!
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
